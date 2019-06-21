@@ -13,14 +13,14 @@ You can also check out [wireguard-install](https://github.com/angristan/wireguar
 First, get the script and make it executable :
 
 ```bash
-curl -O https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh
-chmod +x openvpn-install.sh
+wget https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh
+
 ```
 
 Then run it :
 
 ```sh
-./openvpn-install.sh
+bash openvpn-install.sh
 ```
 
 You need to run the script as root and have the TUN module enabled.
